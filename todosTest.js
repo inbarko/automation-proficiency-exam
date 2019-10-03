@@ -1,1 +1,5 @@
-
+const TodosPage = require("./todos")
+let toDoPage=new TodosPage("https://elevation-local-todo.herokuapp.com/")
+// toDoPage.insertAndDelete("123")
+// toDoPage.insertAndComplete("123")
+toDoPage.insertTwoDeleteFirst("123")
